@@ -3,19 +3,87 @@
         {
             "img": "https://lh5.googleusercontent.com/p/AF1QipNtC5iVMrw3KjWzgp4baZ91TF2UqNt18GPCdQxI=w408-h306-k-no",
             "description": "A",
-            "name": "Hadyen Starbucks",
+            "name": "Hayden Starbucks",
             "geometry": [
                 33.418198906454975,
                 -111.934823570776
+            ],
+            "space": 15,
+            "used": 10,
+            "prediction": [
+                {
+                    "time": "9 AM",
+                    "occupancy": 0.7,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "10 AM",
+                    "occupancy": 0.9,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "11 AM",
+                    "occupancy": 0.8,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "12 PM",
+                    "occupancy": 0.1,
+                    "kind": "success"
+                },
+                {
+                    "time": "1 PM",
+                    "occupancy": 0.1,
+                    "kind": "success"
+                },
+                {
+                    "time": "2 PM",
+                    "occupancy": 0.5,
+                    "kind": "inherit"
+                }
             ]
         },
         {
             "img": "https://lh5.googleusercontent.com/p/AF1QipNtC5iVMrw3KjWzgp4baZ91TF2UqNt18GPCdQxI=w408-h306-k-no",
             "description": "A",
-            "name": "Nobel Starbucks",
+            "name": "Noble Starbucks",
             "geometry": [
                 33.41833434168894,
                 -111.9319527587236
+            ],
+            "space": 19,
+            "used": 5,
+            "prediction": [
+                {
+                    "time": "9 AM",
+                    "occupancy": 0.7,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "10 AM",
+                    "occupancy": 0.9,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "11 AM",
+                    "occupancy": 0.8,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "12 PM",
+                    "occupancy": 0.1,
+                    "kind": "success"
+                },
+                {
+                    "time": "1 PM",
+                    "occupancy": 0.1,
+                    "kind": "success"
+                },
+                {
+                    "time": "2 PM",
+                    "occupancy": 0.5,
+                    "kind": "inherit"
+                }
             ]
         },
         {
@@ -25,6 +93,40 @@
             "geometry": [
                 33.416594394801,
                 -111.9282707091688
+            ],
+            "space": 21,
+            "used": 1,
+            "prediction": [
+                {
+                    "time": "9 AM",
+                    "occupancy": 0.7,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "10 AM",
+                    "occupancy": 0.9,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "11 AM",
+                    "occupancy": 0.8,
+                    "kind": "secondary"
+                },
+                {
+                    "time": "12 PM",
+                    "occupancy": 0.1,
+                    "kind": "success"
+                },
+                {
+                    "time": "1 PM",
+                    "occupancy": 0.1,
+                    "kind": "success"
+                },
+                {
+                    "time": "2 PM",
+                    "occupancy": 0.5,
+                    "kind": "inherit"
+                }
             ]
         }
     ]

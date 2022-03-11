@@ -1,7 +1,6 @@
 import React from "react";
 import { Popup } from "react-leaflet";
 
-import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -10,10 +9,10 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 
-
+import GaugeChart from 'react-gauge-chart'
 
 const MarkerPopup = (props) => {
-  const { name, description, img } = props.data;
+  const { name, description, img, used, space} = props.data;
   return (
     <Popup>
     <Card sx={{ maxWidth: 500 }}>
@@ -29,11 +28,17 @@ const MarkerPopup = (props) => {
         <Typography variant="body2" color="text.secondary">
           {description}
         </Typography>
-        <Typography component="legend">Occupancy</Typography>
-      <Rating name="read-only" value={2} readOnly />
+        <br></br>
+        <Typography component="legend">Occupancy {used} / {space} </Typography>
+        <br></br>
+        <GaugeChart id="gauge-chart3" 
+                            nrOfLevels={10} 
+                            percent={used / space}
+                            textColor="gray"
+                            />
       </CardContent>
       <CardActions>
-        <Button variant="contained" onClick={() => props.setVenueView(name)}>Bookings</Button>
+        <Button style={{width: "100%"}} variant="contained" onClick={() => props.setVenueView(props.data)}>See Forecast</Button>
       </CardActions>
     </Card>
 
