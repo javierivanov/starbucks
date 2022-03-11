@@ -2,7 +2,7 @@
     "venues": [
         {
             "img": "https://lh5.googleusercontent.com/p/AF1QipNtC5iVMrw3KjWzgp4baZ91TF2UqNt18GPCdQxI=w408-h306-k-no",
-            "description": "A",
+            "description": "Starbucks Library",
             "name": "Hayden Starbucks",
             "geometry": [
                 33.418198906454975,
@@ -14,32 +14,38 @@
                 {
                     "time": "9 AM",
                     "occupancy": 0.7,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "10 AM",
                     "occupancy": 0.9,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "11 AM",
                     "occupancy": 0.8,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "12 PM",
                     "occupancy": 0.1,
-                    "kind": "success"
+                    "kind": "success",
+                    "desc": "Not Busy"
                 },
                 {
                     "time": "1 PM",
                     "occupancy": 0.1,
-                    "kind": "success"
+                    "kind": "success",
+                    "desc": "Not Busy"
                 },
                 {
                     "time": "2 PM",
                     "occupancy": 0.5,
-                    "kind": "inherit"
+                    "kind": "inherit",
+                    "desc": "Normal"
                 }
             ]
         },
@@ -57,32 +63,38 @@
                 {
                     "time": "9 AM",
                     "occupancy": 0.7,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "10 AM",
                     "occupancy": 0.9,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "11 AM",
                     "occupancy": 0.8,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "12 PM",
                     "occupancy": 0.1,
-                    "kind": "success"
+                    "kind": "success",
+                    "desc": "Not Busy"
                 },
                 {
                     "time": "1 PM",
                     "occupancy": 0.1,
-                    "kind": "success"
+                    "kind": "success",
+                    "desc": "Not Busy"
                 },
                 {
                     "time": "2 PM",
                     "occupancy": 0.5,
-                    "kind": "inherit"
+                    "kind": "inherit",
+                    "desc": "Normal"
                 }
             ]
         },
@@ -100,32 +112,38 @@
                 {
                     "time": "9 AM",
                     "occupancy": 0.7,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "10 AM",
                     "occupancy": 0.9,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "11 AM",
                     "occupancy": 0.8,
-                    "kind": "secondary"
+                    "kind": "secondary",
+                    "desc": "Busy"
                 },
                 {
                     "time": "12 PM",
                     "occupancy": 0.1,
-                    "kind": "success"
+                    "kind": "success",
+                    "desc": "Not Busy"
                 },
                 {
                     "time": "1 PM",
                     "occupancy": 0.1,
-                    "kind": "success"
+                    "kind": "success",
+                    "desc": "Not Busy"
                 },
                 {
                     "time": "2 PM",
                     "occupancy": 0.5,
-                    "kind": "inherit"
+                    "kind": "inherit",
+                    "desc": "Normal"
                 }
             ]
         }

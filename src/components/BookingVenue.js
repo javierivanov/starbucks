@@ -19,7 +19,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import LinearProgress from '@mui/material/LinearProgress';
 import TextField from '@mui/material/TextField';
 import GaugeChart from 'react-gauge-chart'
-import { Container, Stack } from '@mui/material';
+import { Container, Link, Stack } from '@mui/material';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -73,9 +73,15 @@ class Booking extends React.Component {
                     <br />
                     <br />
                     {this.state.showReservation ?
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                    Reserved by: {this.state.reservedBy}
-                    </Typography>
+                    <Box>
+                        <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
+                        Reserved by: {this.state.reservedBy}
+                        </Typography>
+                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                        This is your Zoom pro session available for 1 hour.
+                        </Typography>
+                        <Link>https://asu.zoom.us/j/81147371994</Link>
+                    </Box>
                     :
                     <Box>
                         <TextField id="outlined-basic" label="Your Name" variant="outlined" onChange={(x) => this.setState({reservedBy: x.target.value})}/>

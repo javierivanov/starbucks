@@ -44,7 +44,7 @@ class Booking extends React.Component {
         
         const data = this.props.data.prediction.map((x) => (
             <ListItem>
-                <ListItemText primary={"time slot: " + x.time} secondary={"occupancy: " + x.occupancy} />
+                <ListItemText primary={x.time} secondary={x.desc} />
                 <Box sx={{ width: '50%' }}>
                     <LinearProgress variant="determinate" value={x.occupancy * 100} color={x.kind}/>
                 </Box>
